@@ -41,8 +41,6 @@ Site institucional da **Neo IT**, empresa de tecnologia especializada em soluç�
 
 
 
-
-
 ## Funcionalidades
 
 - Layout responsivo com menu hamburguer para mobile
@@ -54,12 +52,6 @@ Site institucional da **Neo IT**, empresa de tecnologia especializada em soluç�
 - Navegação com destaque de página ativa
 
 
-## Como executar localmente
-
-Não é necessário instalar dependências. Basta clonar o repositório e abrir os arquivos no navegador, ou usar uma extensão como **Live Server** no VS Code.
-
-git clone https://github.com/seu-usuario/neoit.git
-cd neoit
 
 ## Contato
 
