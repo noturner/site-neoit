@@ -23,19 +23,24 @@ Site institucional da **Neo IT**, empresa de tecnologia especializada em soluç�
 
 
 ## Estrutura de pastas
-Neoit/
-styles.css 
-script.js
-inicio.html 
-sobre.html 
-servicos.html  
-drive.html 
-contato.html
+#### Neoit/
 
-Image/
-logo ok.png │ logo black.png │ favicon blue.png │ cloud-digital.png │ img paralax 3.jpg │ img paralax 2.jpg │ icon_servidor.png │ icon_infra.png │ icon_nuvem.png │ icon_suporte.png │ img missao.png │ img visao.png │ img valores.png 
+- styles.css
+- script.js
+- inicio.html
+- sobre.html
+- servicos.html
+- drive.html
+- contato.html
 
-Font/ BebasNeue Bold.otf │ BebasNeue Regular.otf │ BebasNeue Light.otf 
+- #### Image/
+  - logo ok.png │ logo black.png │ favicon blue.png │ cloud-digital.png │ img paralax 3.jpg │ img paralax 2.jpg │ icon_servidor.png │ icon_infra.png │ icon_nuvem.png │ icon_suporte.png │ img missao.png │ img visao.png │ img valores.png 
+
+- #### Font/
+  - BebasNeue Bold.otf │ BebasNeue Regular.otf │ BebasNeue Light.otf 
+
+
+
 
 
 ## Funcionalidades
