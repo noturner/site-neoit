@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo IT - Drive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon blue.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="image/neoitv1.png" alt="Neo IT">
+    </div>
+    <nav>
+        <a href="/inicio/">Início</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/servicos/">Serviços</a>
+        <a href="/contato/">Contato</a>
+    </nav>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="/inicio/">Início</a>
+    <a href="/sobre/">Sobre</a>
+    <a href="/servicos/">Serviços</a>
+    <a href="/contato/">Contato</a>
+</div>
+
+<!-- HERO -->
+<section class="drive-hero">
+    <div class="drive-hero-glow"></div>
+    <span class="drive-eyebrow reveal">NEO IT</span>
+    <h1 class="reveal">NEOIT <span>DRIVE</span></h1>
+    <p class="reveal">Segurança de ponta com IDS, IPS e WAF nativos para sua nuvem corporativa. Armazene, acesse e proteja seus dados de qualquer lugar.</p>
+    <div class="drive-hero-btns reveal">
+        <a href="#solicitar" class="btn-neo">Testar Grátis por 7 dias</a>
+        <a href="#planos" class="btn-neo-outline">Ver Planos</a>
+    </div>
+</section>
+
+<!-- BARRA DE SEGURANÇA -->
+<div class="drive-secbar">
+    <div class="drive-secbar-inner">
+        <div class="drive-secitem">
+            <span class="drive-dot"></span>IDS & IPS NATIVO
+        </div>
+        <div class="drive-secitem">
+            <span class="drive-dot"></span>WAF ATIVO 24/7
+        </div>
+        <div class="drive-secitem">
+            <span class="drive-dot"></span>BACKUP REDUNDANTE
+        </div>
+        <div class="drive-secitem">
+            <span class="drive-dot"></span>ACESSO REMOTO SEGURO
+        </div>
+    </div>
+</div>
+
+<!-- RECURSOS -->
+<section class="drive-recursos">
+
+    <span class="snv-label reveal">RECURSOS</span>
+    <h2 class="snv-title snv-title-dark reveal">Por que escolher o Drive?</h2>
+    <div class="snv-divider reveal"></div>
+
+    <div class="drive-recursos-grid">
+
+        <div class="drive-rec-card reveal">
+            
+            <h4>IDS & IPS</h4>
+            <p>Detecção e prevenção de intrusões monitoradas 24h por dia para a total tranquilidade do seu negócio.</p>
+        </div>
+
+        <div class="drive-rec-card reveal" style="transition-delay:.1s">
+            <span class="icone-glow"></span>
+            <h4>WAF Ativo</h4>
+            <p>Firewall de aplicação web de última geração protegendo cada requisição e acesso aos seus dados.</p>
+        </div>
+
+        <div class="drive-rec-card reveal" style="transition-delay:.2s">
+            <span class="icone-glow"></span>
+            <h4>Backup Redundante</h4>
+            <p>Redundância garantida com retenção flexível sob medida para o seu orçamento e necessidade.</p>
+        </div>
+
+        <div class="drive-rec-card reveal" style="transition-delay:.3s">
+            <span class="icone-glow"></span>
+            <h4>Acesso Remoto</h4>
+            <p>Acesse seus arquivos e sistemas de qualquer lugar do mundo com segurança e velocidade.</p>
+        </div>
+
+        <div class="drive-rec-card reveal" style="transition-delay:.4s">
+            <span class="icone-glow"></span>
+            <h4>Monitoramento</h4>
+            <p>Painel completo com relatórios em tempo real sobre uso, segurança e desempenho do seu ambiente.</p>
+        </div>
+
+        <div class="drive-rec-card reveal" style="transition-delay:.4s">
+            <span class="icone-glow"></span>
+            <h4>Suporte</h4>
+            <p>Suporte técnico especializado disponível 24/7 para resolver quaisquer dúvidas ou problemas.</p>
+        </div>
+
+        <!-- OFF <div class="drive-rec-card reveal" style="transition-delay:.5s">
+            <span class="icone-glow"></span>
+            <h4>Alta Performance</h4>
+            <p>Infraestrutura de alto desempenho com baixa latência e escalabilidade automática conforme sua demanda.</p>
+        </div> -->
+
+    </div>
+</section>
+
+<!-- PLANOS -->
+<section class="drive-planos" id="planos">
+
+    <span class="snv-label reveal">PLANOS</span>
+    <h2 class="snv-title reveal">Escolha o seu plano</h2>
+    <div class="snv-divider reveal"></div>
+
+    <div class="drive-planos-grid">
+
+        <!-- BÁSICO -->
+        <div class="plano-card reveal">
+            <h4>Básico</h4>
+            <div class="plano-price">R$49</div>
+            <p class="plano-sub">/mês por usuário</p>
+            <ul class="plano-lista">
+                <li>100GB de armazenamento</li>
+                <li>WAF Ativo</li>
+                <li>Suporte via e-mail</li>
+                <li>Acesso remoto seguro</li>
+            </ul>
+            <a href="#solicitar" class="btn-neo-outline">Começar</a>
+        </div>
+
+        <!-- PRO -->
+        <div class="plano-card plano-destaque reveal" style="transition-delay:.1s">
+            <div class="plano-badge">MAIS POPULAR</div>
+            <h4>Profissional</h4>
+            <div class="plano-price">R$99</div>
+            <p class="plano-sub">/mês por usuário</p>
+            <ul class="plano-lista">
+                <li>1TB de armazenamento</li>
+                <li>IDS, IPS & WAF Ativo</li>
+                <li>Backup redundante</li>
+                <li>Suporte prioritário 24/7</li>
+                <li>Painel de monitoramento</li>
+            </ul>
+            <a href="#solicitar" class="btn-neo">Começar</a>
+        </div>
+
+        <!-- ENTERPRISE -->
+        <div class="plano-card reveal" style="transition-delay:.2s">
+            <h4>Enterprise</h4>
+            <div class="plano-price">Custom</div>
+            <p class="plano-sub">sob consulta</p>
+            <ul class="plano-lista">
+                <li>Armazenamento ilimitado</li>
+                <li>Infraestrutura dedicada</li>
+                <li>SLA personalizado</li>
+                <li>Gerente de conta exclusivo</li>
+            </ul>
+            <a href="/contato/" class="btn-neo-outline">Falar com Especialista</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- FORMULÁRIO -->
+<section class="drive-form-section" id="solicitar">
+
+    <span class="snv-label reveal">COMECE AGORA</span>
+    <h2 class="snv-title snv-title-dark reveal">Solicitar Acesso ao Drive</h2>
+    <div class="snv-divider reveal"></div>
+
+    <div class="drive-form-box reveal">
+        <form>
+            <div class="drive-form-row">
+                <div class="drive-form-group">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Seu nome">
+                </div>
+                <div class="drive-form-group">
+                    <label>Empresa</label>
+                    <input type="text" placeholder="Nome da empresa">
+                </div>
+            </div>
+            <div class="drive-form-group">
+                <label>E-mail</label>
+                <input type="email" placeholder="seu@email.com">
+            </div>
+            <div class="drive-form-group">
+                <label>Plano de interesse</label>
+                <select>
+                    <option value="">Selecione um plano</option>
+                    <option>Básico — R$ 49/mês</option>
+                    <option>Profissional — R$ 99/mês</option>
+                    <option>Enterprise — Sob consulta</option>
+                    <option>Teste Grátis 7 dias</option>
+                </select>
+            </div>
+            <div class="drive-form-group">
+                <label>Mensagem (opcional)</label>
+                <textarea placeholder="Conte um pouco sobre sua necessidade..."></textarea>
+            </div>
+            <button type="submit" class="btn-neo" style="width:100%; font-size:1.4rem; padding:16px; border:none; cursor:pointer;">Enviar Solicitação</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Neo IT. Todos os direitos reservados. &nbsp;|&nbsp;
+        <a href="/inicio/">Início</a>
+        <a href="/servicos/">Serviços</a>
+        <a href="/contato/">Contato</a>
+    </p>
+</footer>
+
+<script src="/script.js"></script>
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

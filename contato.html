@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo IT - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon blue.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="image/neoitv1.png" alt="Neo IT">
+    </div>
+    <nav>
+        <a href="/inicio/">Início</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/servicos/">Serviços</a>
+        <a href="/contato/" class="active">Contato</a>
+    </nav>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="/inicio/">Início</a>
+    <a href="/sobre/">Sobre</a>
+    <a href="/servicos/">Serviços</a>
+    <a href="/contato/" class="active">Contato</a>
+</div>
+
+<!-- MANTIDO -->
+<div class="servicos-header">
+    <h2 class="titulo-animado">Contato</h2>
+    <p class="subtitulo-servico">Estamos prontos para ouvir você</p>
+    <span class="linha-brilhante"></span>
+</div>
+
+<!-- NOVO LAYOUT -->
+<section class="contato-novo-section">
+
+    <div class="contato-novo-grid">
+
+        <!-- LADO ESQUERDO: INFO -->
+        <div class="contato-info reveal-left">
+
+            <h3>Vamos conversar sobre sua necessidade</h3>
+            <p>Nossa equipe está pronta para atender você. Preencha o formulário ou entre em contato diretamente pelos canais abaixo.</p>
+
+            <div class="contato-links-lista">
+
+                <a href="https://www.google.com/search?q=joinville"
+                   target="_blank"
+                   class="contato-link-card">
+                    <span class="clc-icon">📍</span>
+                    <div>
+                        <strong>Localização</strong>
+                        <span>Joinville, SC</span>
+                    </div>
+                </a>
+
+                <a href="mailto:contato@neoit.com.br"
+                   class="contato-link-card">
+                    <span class="clc-icon">📧</span>
+                    <div>
+                        <strong>E-mail</strong>
+                        <span>contato@neoit.com.br</span>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/5547991339098?text=Olá%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais!"
+                   target="_blank"
+                   class="contato-link-card">
+                    <span class="clc-icon">📞</span>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <span>(47) 99133-9098</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/neoit.tecnologia/"
+                   target="_blank"
+                   class="contato-link-card">
+                    <span class="clc-icon">📷</span>
+                    <div>
+                        <strong>Instagram</strong>
+                        <span>@neoit.tecnologia</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/company/neo-it-tecnologia/posts/?feedView=all"
+                   target="_blank"
+                   class="contato-link-card">
+                    <span class="clc-icon">💼</span>
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <span>Neo IT Tecnologia</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- LADO DIREITO: FORMULÁRIO -->
+        <div class="contato-form-box reveal-right">
+
+            <h3>Envie sua mensagem</h3>
+            <p>Responderemos em até 24 horas úteis.</p>
+
+            <form class="contato-form">
+
+                <div class="contato-form-row">
+                    <div class="contato-form-group">
+                        <label>Nome</label>
+                        <input type="text" placeholder="Seu nome completo">
+                    </div>
+                    <div class="contato-form-group">
+                        <label>Telefone</label>
+                        <input type="tel" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                </div>
+
+                <div class="contato-form-group">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="seu@email.com">
+                </div>
+
+                <div class="contato-form-group">
+                    <label>Assunto</label>
+                    <select>
+                        <option value="">Selecione um assunto</option>
+                        <option>Serviços em Nuvem</option>
+                        <option>Hospedagem de Sites</option>
+                        <option>Desenvolvimento Web</option>
+                        <option>Suporte Técnico</option>
+                        <option>Infraestrutura de TI</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+
+                <div class="contato-form-group">
+                    <label>Mensagem</label>
+                    <textarea placeholder="Descreva sua necessidade ou dúvida..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-neo" style="width:100%; font-size:1.4rem; padding:16px; border:none; cursor:pointer;">
+                    Enviar Mensagem ✉️
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- BANNER FINAL -->
+<section class="contato-cta-section">
+    <h2 class="reveal">Prefere falar agora?</h2>
+    <p class="reveal">Nosso time está disponível via WhatsApp para agilizar seu atendimento.</p>
+    <a href="https://wa.me/5547991339098?text=Olá%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais!"
+       target="_blank"
+       class="btn-neo reveal">Chamar no WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2025 Neo IT. Todos os direitos reservados. &nbsp;|&nbsp;
+        <a href="/inicio/">Início</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/servicos/">Serviços</a>
+    </p>
+</footer>
+
+<script src="/script.js"></script>
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo IT - Início</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon blue.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="image/neoitv1.png" alt="Neo IT">
+    </div>
+    <nav>
+        <a href="inicio.html" class="active">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="inicio.html" class="active">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="contato.html">Contato</a>
+</div>
+
+<!-- HERO PARALLAX - MANTIDO -->
+<section class="hero parallax">
+    <div class="fade-in-text">
+        <h1>Neo IT</h1>
+        <p>Armazenamento em Nuvem com Segurança e Responsabilidade</p>
+    </div>
+</section>
+
+<!-- STATuS -->
+<section class="stats-section">
+    <div class="stats-grid">
+        <div class="stat-item reveal" style="transition-delay:.3s">
+            <span class="stat-num">24/7</span>
+            <span class="stat-label">Suporte Ativo</span>
+        </div>    
+        <div class="stat-item reveal" style="transition-delay:.15s">
+            <span class="stat-num">ON</span>
+            <span class="stat-label">Uptime Garantido</span>
+        </div>
+        <div class="stat-item reveal" style="transition-delay:.45s">
+            <span class="stat-num">+3</span>
+            <span class="stat-label">Anos de Mercado</span>
+        </div>
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="home-services">
+    <span class="section-label reveal">O QUE FAZEMOS</span>
+    <h2 class="section-title reveal">Nossas Soluções</h2>
+    <div class="section-divider reveal"></div>
+
+    <div class="home-cards-grid">
+        <!-- OFF <a href="servicos.html" class="home-card reveal">
+            <img src="image/icon_servidor.png" alt="Servidores" class="card-icon-img">
+            <h3>Servidores</h3>
+            <p>Alta disponibilidade e performance para manter sua operação sempre estável e segura.</p>
+            <span class="card-link">Ver detalhes →</span>
+        </a> -->
+        <a href="servicos.html" class="home-card reveal" style="transition-delay:.1s">
+            <img src="image/icon_infra.png" alt="Infraestrutura" class="card-icon-img">
+            <h3>Infraestrutura de TI</h3>
+            <p>Projetos robustos com alta tecnologia para ambientes corporativos de ponta.</p>
+            <span class="card-link">Ver detalhes →</span>
+        </a>
+        <a href="drive.html" class="home-card reveal" style="transition-delay:.2s">
+            <img src="image/icon_nuvem.png" alt="Cloud" class="card-icon-img">
+            <h3>Serviços Cloud</h3>
+            <p>Mobilidade e segurança com soluções em nuvem escaláveis para o seu negócio.</p>
+            <span class="card-link">Conheça o Drive →</span>
+        </a>
+        <a href="servicos.html" class="home-card reveal" style="transition-delay:.3s">
+            <img src="image/icon_suporte.png" alt="Suporte" class="card-icon-img">
+            <h3>Suporte Técnico</h3>
+            <p>Atendimento via HelpDesk para garantir sua continuidade.</p>
+            <span class="card-link">Ver detalhes →</span>
+        </a>
+    </div>
+</section>
+
+<!-- VALORES -->
+<section class="valores-linha">
+    <h2 class="reveal">Confiança que conecta, tecnologia que entrega.</h2>
+    <p class="reveal">Inovação · Agilidade · Qualidade · Transparência</p>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+    <h2 class="reveal">Pronto para evoluir sua infraestrutura?</h2>
+    <p class="reveal">Descubra como a Neo IT pode transformar sua empresa com soluções modernas, seguras e sob medida para cada necessidade.</p>
+    <div class="reveal">
+        <a href="servicos.html" class="btn-neo">Ver Serviços</a>
+        <a href="contato.html" class="btn-neo-outline">Fale Conosco</a>
+    </div>
+</section>
+
+<!-- TESTEMUNHOS -->
+<section class="testimonials">
+    <span class="section-label reveal">CLIENTES</span>
+    <h2 class="section-title reveal">O que dizem sobre nós</h2>
+    <div class="section-divider reveal"></div>
+
+    <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+            <p>"A Neo IT transformou nossa infraestrutura completamente. O suporte é ágil e o serviço em nuvem trouxe uma flexibilidade que não imaginávamos possível."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">A</div>
+                <div class="author-info">
+                    <strong>André M.</strong>
+                    <span>Diretor de TI — Empresa Logística</span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:.15s">
+            <p>"Migramos nossos servidores para a nuvem com total segurança e zero downtime. A equipe Neo IT foi excepcional do início ao fim do projeto."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">C</div>
+                <div class="author-info">
+                    <strong>Carla S.</strong>
+                    <span>CTO — Startup de SaaS</span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:.3s">
+            <p>"Atendimento diferenciado, profissionalismo em cada detalhe e soluções que realmente funcionam. Recomendo sem hesitar a qualquer empresa."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">R</div>
+                <div class="author-info">
+                    <strong>Ricardo F.</strong>
+                    <span>Gerente Operacional — Indústria</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Neo IT. Todos os direitos reservados. &nbsp;|&nbsp;
+        <a href="sobre.html">Sobre</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+    </p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => revealObserver.observe(el));
+</script>
+</body>
+</html>

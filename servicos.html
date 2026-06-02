@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo IT - Serviços</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon blue.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="image/neoitv1.png" alt="Neo IT">
+    </div>
+    <nav>
+        <a href="/inicio/">Início</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/servicos/" class="active">Serviços</a>
+        <a href="/contato/">Contato</a>
+    </nav>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="/inicio/">Início</a>
+    <a href="/sobre/">Sobre</a>
+    <a href="/servicos/" class="active">Serviços</a>
+    <a href="/contato/">Contato</a>
+</div>
+
+
+
+
+
+<!-- CARDS DE SERVIÇOS -->
+<section class="servicos-novo-section">
+
+    <div class="snv-label reveal">ESPECIALIDADES</div>
+    <h2 class="snv-title reveal">O que oferecemos</h2>
+    <div class="snv-divider reveal"></div>
+
+    <div class="snv-grid">
+
+        <!-- SERVIÇOS EM NUVEM — DESTAQUE -->
+        <div class="snv-card snv-destaque reveal">
+            <span class="snv-badge">⭐ DESTAQUE</span>
+            <h3>Serviços em Nuvem</h3>
+            <p>Soluções cloud seguras e escaláveis com IDS, IPS e WAF nativos. Armazene, acesse e compartilhe seus dados de qualquer lugar com total proteção e redundância garantida.</p>
+            <a href="/drive/" class="btn-neo">Teste Grátis por 7 dias</a>
+        </div>
+
+        <!-- HOSPEDAGEM -->
+        <div class="snv-card reveal" style="transition-delay:.1s">
+            <h3>Hospedagem de Sites e Serviços</h3>
+            <p>Servidores otimizados, uptime garantido e performance máxima para que sua presença online nunca falhe. Planos sob medida para empresas de todos os portes.</p>
+            <a href="/contato/" class="btn-neo-outline">Solicitar Orçamento</a>
+        </div>
+
+        <!-- DESENVOLVIMENTO WEB -->
+        <div class="snv-card reveal" style="transition-delay:.2s">
+            <h3>Desenvolvimento e Gerenciamento de Site</h3>
+            <p>Criação e gerenciamento de sites modernos, responsivos e otimizados para buscadores. Da concepção ao ar — com manutenção contínua e suporte dedicado.</p>
+            <a href="/contato/" class="btn-neo-outline">Solicitar Orçamento</a>
+        </div>
+
+        <!-- SUPORTE -->
+        <div class="snv-card reveal" style="transition-delay:.3s">
+            <h3>Suporte Técnico</h3>
+            <p>Atendimento técnico via HelpDesk para resolver rapidamente qualquer problema e manter sua operação sem interrupções.</p>
+        </div>
+
+        <!-- INFRAESTRUTURA -->
+        <div class="snv-card reveal" style="transition-delay:.4s">
+            <h3>Infraestrutura de TI</h3>
+            <p>Redes corporativas, cabeamento estruturado e servidores projetados para suportar o crescimento e as demandas do seu negócio.</p>
+        </div>
+
+        <!-- SEGURANÇA -->
+        <div class="snv-card reveal" style="transition-delay:.5s">
+            <h3>Segurança da Informação</h3>
+            <p>Proteção de dados com políticas, ferramentas e práticas especializadas. Confidencialidade, integridade e disponibilidade garantidas.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- COMO TRABALHAMOS -->
+<section class="processo-section">
+
+    <div class="snv-label reveal">PROCESSO</div>
+    <h2 class="snv-title snv-title-dark reveal">Como trabalhamos</h2>
+    <div class="snv-divider reveal"></div>
+
+    <div class="processo-grid">
+
+        <div class="processo-item reveal">
+            <div class="processo-num">01</div>
+            <h4>Diagnóstico</h4>
+            <p>Entendemos sua necessidade e mapeamos os pontos de melhoria na sua estrutura de TI.</p>
+        </div>
+
+        <div class="processo-item reveal" style="transition-delay:.1s">
+            <div class="processo-num">02</div>
+            <h4>Definição de Projeto</h4>
+            <p>Elaboramos uma proposta personalizada com o melhor custo-benefício para o seu caso.</p>
+        </div>
+
+        <div class="processo-item reveal" style="transition-delay:.1s">
+            <div class="processo-num">03</div>
+            <h4>Proposta</h4>
+            <p>Elaboramos uma proposta personalizada com o melhor custo-benefício para o seu caso.</p>
+        </div>
+
+        <div class="processo-item reveal" style="transition-delay:.2s">
+            <div class="processo-num">04</div>
+            <h4>Implementação</h4>
+            <p>Executamos com agilidade, sem impactar sua operação durante o processo.</p>
+        </div>
+
+        <div class="processo-item reveal" style="transition-delay:.3s">
+            <div class="processo-num">05</div>
+            <h4>Suporte</h4>
+            <p>Acompanhamos de perto e garantimos suporte pós-implementação para sua tranquilidade.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="servicos-cta-section">
+    <h2 class="reveal">Vamos conversar sobre o seu projeto?</h2>
+    <p class="reveal">Entre em contato com nossa equipe e descubra como a Neo IT pode transformar sua infraestrutura de TI.</p>
+    <div class="reveal">
+        <a href="/contato/" class="btn-neo">Solicitar Orçamento</a>
+        <a href="/drive/" class="btn-neo-outline">Teste o Drive Grátis</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Neo IT. Todos os direitos reservados. &nbsp;|&nbsp;
+        <a href="/inicio/">Início</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/contato/">Contato</a>
+    </p>
+</footer>
+
+<script src="/script.js"></script>
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
